@@ -1,0 +1,2 @@
+Do not use np.argmax(G) since it returns only one action that gives the max q. 
+Instead use this  greedy_actions = np.argwhere(G == np.max(G))
